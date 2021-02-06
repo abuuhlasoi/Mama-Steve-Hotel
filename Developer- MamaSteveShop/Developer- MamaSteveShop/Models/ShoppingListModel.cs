@@ -7,9 +7,11 @@ namespace Developer__MamaSteveShop.Models
 {
     public class ShoppingListModel
     {
-        public string Type { get; set; }
+        public string Fruits { get; set; }
+        public string Vegetables { get; set; }
+        public string Meat { get; set; }
         public Items items { get; set; }
-    }
+    } 
     public partial class Items 
     {
         public string Item { get; set; }
