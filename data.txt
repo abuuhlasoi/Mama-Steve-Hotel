@@ -1,0 +1,22 @@
+{
+    "Fruits": [
+        {
+            "banana": "10",
+            "oranges": "15",
+            "pineapples": "25"
+        }
+    ],
+    "Vegetables": [
+        {
+            "cabbage": "40",
+            "kales": "10"
+        }
+    ],
+    "Meat": [
+        {
+            "goat": "300",
+            "cow": "200",
+            "pig": "400"
+        }
+    ]
+}
