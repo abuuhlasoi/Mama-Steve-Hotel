@@ -19,6 +19,9 @@ namespace Developer__MamaSteveShop
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            //EnableCorsAttribute cors = new EnableCorsAttribute("*", "*", "*");
+            //config.EnableCors(cors);
         }
     }
 }
